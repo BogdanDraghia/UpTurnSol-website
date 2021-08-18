@@ -1,0 +1,149 @@
+.containerC{
+margin: 110px auto;
+max-width: 1024px;
+        padding:60px;
+        padding-top:40px;
+        background-color: white;
+        box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    display: flex;
+    border-radius: 10px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: center;
+  }
+.page-content2{
+    background-color: #bbdef0;
+background-image: linear-gradient(180deg, #bbdef0 39%, #E0C3FC 100%);
+.Navbar{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+.body{
+    
+}
+
+.ContactForm{
+    
+    padding: 10px;
+    margin: 20px;
+}
+.ContactForm a2{
+    margin:0px;
+    font-size: 30px;
+    font-family: Gordita medium;
+}
+.ContactForm a1{
+    font-family: Gordita light;
+    font-size: 16px;
+}
+
+.ContactFormSectionR{
+    width:400px;
+    display: block;
+    
+    max-height: 800px;
+    background-color: #D1D1D1;
+
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+	border-radius: 5px;
+    
+}
+
+.ContactFormSectionL{
+    
+    width: 100%;
+   
+
+}
+.Form{
+    margin-bottom: 20px;
+}
+.Form input{
+    background-color: #4b4444;
+    border: 10px;
+}
+.Form input, textarea{
+    font-family: Gordita light;
+     margin-left:30px;
+     background-color: #D1D1D1;
+     border-radius:4px;
+    vertical-align: top;}
+.Form label{ width:100px;
+    font-size:14px;
+    font-family: Gordita medium;
+    display: inline-block;
+}
+.form-group{
+    margin:20px;
+}
+.ContactFormSectionR a2{
+    font-size:14px;
+}
+.textareaa textarea{
+    width: 350px;
+    height:200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  
+}
+.ContactFormSectionL input[type=text]{
+    padding:8px;
+    height: 20px;
+    font-size: 12px;
+}
+.titleF{
+    
+}
+.ContactFormA{
+    display: flex;
+    padding:28px;
+   
+    flex-direction: column;
+    text-align: center;
+}
+.ContactFormA a2{
+    padding: 8px;
+    margin-bottom: 10px;
+    font-family: Gordita medium;
+    font-size: 14px;
+    text-align: center;
+}
+.ContactFormA a4{
+    font-size:15px;
+    font-family: Gordita light;
+}
+.ContactFormA a3{
+    font-family: Gordita medium;
+    font-size: 16px;
+}
+.form-group input[type=submit]{
+    font-size:16px;
+    background-color:    #ff9900;
+    border-radius: 11px;
+    padding:       10px 35px;
+    
+    display:       inline-block;
+    text-align:    center;
+    font-family:Gordita Medium;
+}
+.form-group input{
+    width:320px;
+}
+.left-text{
+    margin:10px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .ContactBoxForm{
+background-color: red;
+        width: 100%;
+    }
+    .containerC {flex-direction: column;
+   }
+
+
+}

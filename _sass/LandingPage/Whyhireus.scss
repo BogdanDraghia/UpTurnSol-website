@@ -1,0 +1,72 @@
+.WhyHire-Frontpage{
+  width: 100%;
+  padding: 50px;
+  color : #646f79;
+  background-color: white;
+}
+
+.FlexWhyHire-Frontpage{
+  flex: 1;
+  font-family: Gordita Regular;
+  margin:0 auto;
+  max-width: calc(100% - 5em);
+  width:70em;
+  display: flex;
+  justify-content: center;
+}
+
+.WhyHireText-Frontpage{
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin:20px;
+      max-width: 600px;
+}
+
+.WhyHireText-Frontpage a2{
+  font-size:40px;
+  font-family: Gordita Medium;
+}
+
+.buttonW{
+  font-size:18px;
+  max-width: 180px;
+  min-width: 180px;
+  background:  #25aa9f;
+  border-radius: 11px;
+  padding:  10px 10px;
+  color:  #ffffff;
+  display:  inline-block;
+  text-align:  center;
+  font-family:Gordita Medium;
+}
+
+.WhyHireImage-Frontpage{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  min-width: 200px;
+
+}
+
+.WhyHireImage img{
+  max-width:200px;
+  min-width: 100px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .WhyHire-Frontpage{
+    padding: 0px;
+  }
+  .FlexWhyHire-Frontpage{
+    flex-direction: column;
+    width: 100%;
+
+ 
+    max-width: 100%;
+  }
+}

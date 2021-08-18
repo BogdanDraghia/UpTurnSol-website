@@ -1,0 +1,56 @@
+.misionandvision{
+    background-color: white;
+padding: 20px;
+
+
+}
+
+.Mission>h2>img,.Vision>h2>img{
+    width:70px;
+    vertical-align: middle;
+
+}
+.Mission {
+
+}
+.test2{
+
+    display: inline-block;
+    vertical-align: middle;
+}
+.MissionDisplay{
+
+}
+.MVflex{
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width: 70em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+	align-content: stretch;
+}
+.Mission , .Vision{
+    font-family: Gordita medium;
+    margin: 20px;
+    width:400px;
+}
+.Mission p , .Vision>p{
+    font-family: Gordita light;
+    text-align: left;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .MVflex{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .Mission , .Vision { 
+        width: 100%;
+    }
+
+}

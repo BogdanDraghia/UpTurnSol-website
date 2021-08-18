@@ -1,0 +1,112 @@
+footer {
+  color: #646f79;
+  text-align: center;
+  margin-top: auto;
+  background-color: #222b37;
+}
+
+footer a2{
+  color: #646f79;
+  font-weight: bold;
+  text-decoration: none;
+}
+.resumeflex {
+  margin: 40px;
+  margin-left: 100px;
+}
+.SocialList h6 {
+  border-bottom: 3px solid white;
+  font-family: Gordita medium;
+  font-size: 14px;
+  margin: 10px;
+}
+.SocialList img {
+  width: 35px;
+  margin: 5px;
+}
+
+.textresume a {
+  text-align: left;
+}
+.borderTittle {
+  padding-left: 10px;
+  width: 50%;
+  border-bottom: 3px solid white;
+}
+.textresume {
+  text-align: left;
+  margin: 10px;
+  font-size: 13px;
+  font-family: Gordita medium;
+}
+.resumefooter {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+
+
+  
+  background-color: #e0f3f2;
+}
+.bottomfooter {
+  height: 50px;
+  background-color:#53bcb7;
+}
+.SocialList {
+  margin-top: 20px;
+}
+.social {
+}
+.logoimg img{
+
+  width:100px;
+}
+.flexS{
+
+  align-content: flex-start;
+  width:300px;
+
+  justify-content: center;
+  display: flex;
+  
+  
+}
+.flexS a{
+  color:#646f79;
+  font-family: Gordita light;
+  font-weight: normal;
+  
+}
+.SmallContact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+.SmallContact h6 {
+  border-bottom: 3px solid white;
+  font-size: 15px;
+  margin: 10px;
+  font-family: gordita medium;
+}
+.SmallContact a {
+  font-family: gordita light;
+}
+@media only screen and (max-width: 759px) {
+  .resumefooter {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .social {
+    margin-left: 20px;
+  }
+  .resumeflex {
+    margin-left: 20px;
+  }
+}

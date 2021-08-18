@@ -1,0 +1,47 @@
+.GreetingM{
+    background-color: white;
+width: 100%;
+padding-bottom:40px;
+padding-top:40px;
+}
+.GreetingLeft {
+font-family: Gordita Light;
+        margin: 20px;
+        padding: 10px;
+    
+}
+.GreetingLeft>p>span{
+    font-family: Gordita Medium;
+}
+.GreetingLeft>p{
+
+}
+.GreetingSub{
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    background-color: #e0f3f2;
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width: 70em;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+.GreetingSub {
+    padding: 20px;
+}
+
+.GreetingRight>img{
+    width:150px;
+}
+
+@media only screen and (max-width: 768px) {
+    .GreetingSub{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+}

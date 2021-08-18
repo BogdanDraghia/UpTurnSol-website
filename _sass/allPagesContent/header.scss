@@ -1,0 +1,157 @@
+.containerNav{
+  width: 100%;
+  background-color: white;
+}
+.navbarTop {
+  margin:0 auto;
+  max-width: calc(100% - 5em);
+  width: 100em;
+
+  background-color: white;
+}
+.general {
+
+}
+.brand {
+  display: block;
+
+  margin-left: 64px;
+}
+.brand img{width: 100px;
+  vertical-align: middle;
+
+}
+
+.Navbar {
+  align-items: center;
+  margin: 0 auto;
+  max-width: calc(100% - 5em);
+  width: 90em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  display: flex;
+  font-family: sans-serif;
+}
+.brand a {
+  color: #25aa9f;
+  font-family: Gordita Medium;
+  font-size: 18px;
+  text-decoration: none;
+}
+.NavbarMenu a {
+  padding: 10px 10px;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Gordita Medium;
+  color: #646f79;
+
+  margin: 10px;
+  width: 100%;
+}
+.NavbarMenu a:hover{
+  background-color:#f5f5f5;
+border-radius: 4px;
+}
+.Navbar__Items {
+  display: flex;
+}
+#Davai{
+
+}
+
+.Navbar__Items--right {
+  margin-left: auto;
+}
+.Navbar__Link {
+  padding:10px;
+  display: block;
+
+}
+.Navbar__Link a {
+  text-decoration: none;
+  font-family: Gordita Medium;
+  font-size: 15px;
+}
+.show{
+  border-bottom: none;
+}
+.hide{
+  border-bottom: 2px solid #646f79;
+}
+.Navbar__Link-toggle {
+  display: none;
+}
+//test
+.wrapper{
+  overflow: visible;
+}
+.floatparrent{
+
+  position: relative;
+}
+.floattest{
+  
+  position: absolute;
+
+}
+.Navbar__Items {
+  height: 100%;
+  overflow: hidden;
+}
+.menuDraw {
+  width: 16px;
+  margin: 2px;
+  border-radius: 3px;
+  background-color: #646f79;
+  height: 4px;
+}
+.current{
+  background-color: red;
+}
+@media only screen and (max-width: 868px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+  .sandwich {
+    padding-right: 20px;
+  }
+  .Navbar__Items {
+    display: none;
+  }
+  .brand {
+    margin: 0;
+  }
+  .Navbar__Items--right {
+    margin-left: 0;
+  }
+  .Navbar__Items {
+    width: 100%;
+  }
+  .NavbarMenu a:hover {
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+  .Navbar__Link-toggle {
+    right:20px;
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+    
+  }
+  .brand img{
+    margin-left: 0px;
+  }
+  .Navbar__Link:hover{
+    background-color:#f5f5f5;
+    border-radius: 5px;
+
+  }
+  #Davai{
+    border-bottom:none;
+  }
+}

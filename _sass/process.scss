@@ -1,0 +1,130 @@
+.ContainerProcess{
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width: 70em;
+    margin-top:40px;
+    margin-bottom:80px;
+}
+
+.tittleP a2{
+    font-size:40px;
+    color:#646f79;
+    font-family: Gordita medium;
+	text-align: center;
+	display: block;
+	font-size:40px;
+
+}
+
+
+.flexbbutton{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width:70em;
+
+}
+.buttonselect{
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+text-align: center;
+font-family: Gordita medium;
+border-radius: 5px;
+ width: 80px;
+ height: 80px;
+}
+.buttonselect{  display: flex;
+  justify-content: center;
+  align-items: center;}
+.containerPanel{
+    
+    font-family: Gordita light;
+    flex-wrap: nowrap;
+	justify-content: center;
+    align-content: center;
+    display: flex;
+    margin:0 auto;
+    max-width: calc(100% - 5em);
+    width:70em;
+    min-height: 200px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+.containerPanel a2{
+   
+    margin-top: 20px;
+    font-family: Gordita medium;
+	text-align: center;
+	display: block;
+	font-size:30px;
+
+}
+.line{
+    background-color:#e5e5e5 ;
+    height:10px;
+    width:50px;
+}
+
+//DE CORECTAT
+.buttonselect{
+    margin-left: 0px;
+    margin-right:0px;
+}
+.panel p {
+    color:#646f79;
+    font-family: Gordita medium;
+    padding: 20px;
+}
+
+.panel{
+    
+
+    text-align: center;
+}
+.buttonselect:hover{
+    background-color: #b3e1dd;
+}
+.active{
+    
+    background-color: #b3e1dd;
+}
+.displayp{
+    display: block;
+}
+.displayt{
+    background-color: red;
+}
+.nodisplayg{
+    display: none;
+}
+#one{
+    cursor: pointer;
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }

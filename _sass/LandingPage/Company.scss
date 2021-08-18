@@ -1,0 +1,30 @@
+.ContainerCompanyLogos{
+    background-color: white;
+}
+
+.containerflexCompanyLogos{
+    display: flex;
+    
+    flex-direction: row;
+    flex-flow: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: flex-start;
+	max-width: -webkit-calc(100% - 5em);
+	max-width: calc(100% - 5em);
+	width: 80em;
+}
+.Companylogos{
+    margin: 10px;
+
+}
+.Companylogos img{
+    width: 80px;
+}
+.tittleCompany{
+    color:#646f79;
+    text-align: center;
+    font-family: gordita regular;
+    font-weight: bold;
+    font-size: 13px;
+}

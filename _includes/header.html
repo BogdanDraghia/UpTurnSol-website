@@ -1,0 +1,57 @@
+<div class="containerNav">
+  <div class="navbarTop">
+    <div class="Navbar">
+      <div class="Navbar__Link brand toggle border show" id="borderr">
+        <a href="www.google.com"
+          ><img src="../assets/images/icons/LandingPage/asd.png" />
+        </a>
+      </div>
+      <div class="Navbar__Link Navbar__Link-toggle sandwich">
+        <div class="menuDraw"></div>
+        <div class="menuDraw"></div>
+        <div class="menuDraw"></div>
+      </div>
+
+      <div class="Navbar__Items Navbar__Items--right">
+        <div class="Navbar__Link NavbarMenu">
+          <a href="{{ site.baseurl }}/">Home</a>
+        </div>
+        <div class="Navbar__Link NavbarMenu">
+          <a href="{{ site.baseurl }}/">About US</a>
+        </div>
+        <div class="Navbar__Link NavbarMenu">
+          <a href="#goto">Services</a>
+        </div>
+        <div class="Navbar__Link NavbarMenu">
+          <a href="{{ site.baseurl }}/pages/Contact">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function classToggle() {
+    const navs = document.querySelectorAll(".Navbar__Items");
+
+    navs.forEach((nav) => nav.classList.toggle("Navbar__ToggleShow"));
+  }
+
+  function classToggleBorder() {
+    let tag = document.getElementById("borderr");
+    if (new Set(tag.classList).has("show")) {
+      tag.classList.remove("show");
+      tag.classList.add("hide");
+    } else {
+      tag.classList.add("show");
+      tag.classList.remove("hide");
+    }
+  }
+  function callboth() {
+    classToggle();
+    classToggleBorder();
+  }
+  document
+    .querySelector(".Navbar__Link-toggle")
+    .addEventListener("click", callboth);
+</script>

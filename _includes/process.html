@@ -1,0 +1,119 @@
+<div class="ContainerProcess">
+    <div class="tittleP"><a2>Our process</a2></div>
+    <div class="flexbbutton" id="buttons1">
+      <div class="buttonselect active" id="1">1</div>
+      <div class="line" id="colorL1"></div>
+      <div class="buttonselect" id="2">2</div>
+      <div class="line" id="colorL2"></div>
+      <div class="buttonselect" id="3">3</div>
+      <div class="line" id="colorL3"></div>
+      <div class="buttonselect" id="4">4</div>
+      <div class="line" id="colorL4"></div>
+      <div class="buttonselect" id="5">5</div>
+      <div class="line" id="colorL5"></div>
+      <div class="buttonselect" id="6">6</div>
+    </div>
+    <div class="containerPanel">
+      <div class="panel" id="D1">
+        <a2>Reach Us</a2>
+        <p>
+          Have you decided what types of services you want to delegate to us?
+          Contact us with your requirements.
+        </p>
+      </div>
+      <div class="panel" id="D2">
+        <a2>Schedule a meeting </a2>
+        <p>
+          One of our Account Managers will contact you and schedule a meeting with
+          you via the internet to discuss in detail your requirements,
+          expectation, and delivery schedule.
+        </p>
+      </div>
+      <div class="panel" id="D3">
+        <a2>Chose the best plan</a2>
+        <p>
+          Once we match make the dedicated Virtual Assistant with your job, and
+          then it's time to choose the best plan. Our friendly Account Manager
+          will guide you through available plans suitable that suits your
+          business, requirements, and budget.
+        </p>
+      </div>
+      <div class="panel" id="D4">
+        <a2>Send us your task</a2>
+        <p>
+          Send us the detail of the task and every relevant information, necessary
+          for the success of the job.
+        </p>
+      </div>
+      <div class="panel" id="D5">
+        <a2>Enjoy your time</a2>
+        <p>
+          While our team of experts is executing the assigned tasks, you can put
+          those valuable time into other important things to grow your business.
+        </p>
+      </div>
+      <div class="panel" id="D6">
+        <a2>Evaluate</a2>
+        <p>
+          Our Account Manage evaluates the job process and delivery for maximum
+          efficiency.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    //hide all divs
+    Hidepale();
+    asdf = 0;
+    hodor = 0;
+    logf = 0;
+    fromhere = 0;
+    //show first div
+    document.getElementById("D1").style.display = "block";
+  
+    var header1 = document.getElementById("buttons1");
+    //get all elements with class .buttonselect
+    var buttonS = header1.getElementsByClassName("buttonselect");
+  
+    //for each .buttonselect click event
+    for (var i = 0; i < buttonS.length; i++) {
+      buttonS[i].addEventListener("click", redirect, false);
+    }
+    function redirect() {
+      //hide all divs
+      Hidepale();
+      var activebutton = header1.getElementsByClassName("active");
+      activebutton[0].className = activebutton[0].className.replace(
+        " active",
+        ""
+      );
+      this.className += " active";
+  
+      replace = this.id;
+      document.getElementById("D" + replace).style.display = "block";
+  
+      fromhere = this.id;
+  
+      for (asdf = fromhere - 1; asdf > 0; asdf--) {
+        document.getElementById("colorL" + asdf).style.backgroundColor = "white";
+        if (asdf != fromhere)
+          document.getElementById(asdf).style.backgroundColor = "white";
+      }
+      for (asdf = fromhere; asdf <= 6; asdf++) {
+        document.getElementById("colorL" + asdf).style.backgroundColor =
+          "#e5e5e5";
+        document.getElementById(asdf).removeAttribute("style");
+      }
+    }
+    //function to hide all divs
+    function Hidepale() {
+      document.getElementById("D1").style.display = "none";
+      document.getElementById("D2").style.display = "none";
+      document.getElementById("D3").style.display = "none";
+      document.getElementById("D4").style.display = "none";
+      document.getElementById("D5").style.display = "none";
+      document.getElementById("D6").style.display = "none";
+    }
+  </script>
+  
